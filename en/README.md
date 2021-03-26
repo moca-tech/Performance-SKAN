@@ -8,7 +8,7 @@
     <br>
     en
     ·
-    <a href="https://github.com/moca-tech/Performance-SKAN/tree/master/zh" target="_blank">zh</a>
+    <a href="https://github.com/moca-tech/Performance-SKAN" target="_blank">zh</a>
     <br>
     <a href="http://www.moca-tech.net" target="_blank"><strong>More »</strong></a>
     <br>
