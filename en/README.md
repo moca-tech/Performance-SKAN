@@ -39,7 +39,7 @@
 | version       | string | N         | SKAdNetwork Version<br />1.0<br />2.0<br />2.2 （Default）   |
 | fidelity_type | int    | N         | SKAdNetwork 2.2 Fidelity Type<br />1: StoreKit Render Ads<br />2: View-Through Ads |
 
-6. Request sample
+5. Request sample
 
    > https://tracking.moca-tech.net/ad-impression?offer_id=106489&aff_id=21124&app_bundle=0&version=2.0
 
