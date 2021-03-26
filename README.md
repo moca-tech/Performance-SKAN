@@ -72,13 +72,13 @@
 	"data": {
 		"version": "2.2",
 		"ad-network-id": "hb56zgv37p.skadnetwork",
-    "campaign-id": 1,
-    "itunes-item-id": 1125517808,
-    "nonce": "8d4ee37c-eac3-4ebc-baa9-135618eac483",
-    "source-app-id": 0,
-    "fidelity-type": 1,
-    "timestamp": 1616754257676,
-    "signature": 		"MEUCIDjiwgP6cBQv9dtg9+2hfAPX3CqjwVPdwVdgviVEfFbOAiEA6Aqqc2wzP4c5MbV2P90sVdMJTgEcOZ91YASbnCTHe1U="
+		"campaign-id": 1,
+		"itunes-item-id": 1125517808,
+		"nonce": "8d4ee37c-eac3-4ebc-baa9-135618eac483",
+		"source-app-id": 0,
+		"fidelity-type": 1,
+		"timestamp": 1616754257676,
+		"signature": "MEUCIDjiwgP6cBQv9dtg9+2hfAPX3CqjwVPdwVdgviVEfFbOAiEA6Aqqc2wzP4c5MbV2P90sVdMJTgEcOZ91YASbnCTHe1U="
 	},
 	"status": "ok"
 }
