@@ -38,6 +38,7 @@
 | app_bundle    | int    | Y         | Source App Itunes ID，ex. 1125517808                         |
 | version       | string | N         | SKAdNetwork Version<br />1.0<br />2.0<br />2.2 （Default）   |
 | fidelity_type | int    | N         | SKAdNetwork 2.2 Fidelity Type<br />1: StoreKit Render Ads<br />2: View-Through Ads |
+| idfv       | string | N         | IDFV   |
 
 5. Request sample
 
@@ -66,6 +67,7 @@
 | source-app-id | int | Source Itunes ID. This field is not present when version is 1.0. |
 | fidelity-type                                  | int                                                | SKAdNetwork Fidelity Type. This field is present when version is 2.2. |
 | click_trackers | array[string] | click trackers for measurement platform. |
+| impression_trackers | array[string] | impression trackers for measurement platform. |
 
 3. Response Sample
 
