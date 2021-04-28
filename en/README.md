@@ -41,7 +41,7 @@
 
 5. Request sample
 
-   > https://tracking.moca-tech.net/ad-impression?offer_id=106489&aff_id=21124&app_bundle=0&version=2.0
+   > https://tracking.moca-tech.net/ad-impression?offer_id=106495&aff_id=21124&app_bundle=0&version=2.0
 
 ## RESPONSE
 
