@@ -65,6 +65,7 @@
 | timestamp | int | Millsecond timestamp |
 | source-app-id | int | Source Itunes ID. This field is not present when version is 1.0. |
 | fidelity-type                                  | int                                                | SKAdNetwork Fidelity Type. This field is present when version is 2.2. |
+| click_trackers | array[string] | click trackers for measurement platform. |
 
 3. Response Sample
 
@@ -79,7 +80,8 @@
 		"source-app-id": 0,
 		"fidelity-type": 1,
 		"timestamp": 1616754257676,
-		"signature": "MEUCIDjiwgP6cBQv9dtg9+2hfAPX3CqjwVPdwVdgviVEfFbOAiEA6Aqqc2wzP4c5MbV2P90sVdMJTgEcOZ91YASbnCTHe1U="
+		"signature": "MEUCIDjiwgP6cBQv9dtg9+2hfAPX3CqjwVPdwVdgviVEfFbOAiEA6Aqqc2wzP4c5MbV2P90sVdMJTgEcOZ91YASbnCTHe1U=",
+		"click_trackers": ["link1","link2"]
 	},
 	"status": "ok"
 }
