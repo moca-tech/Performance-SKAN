@@ -83,7 +83,8 @@
 		"fidelity-type": 1,
 		"timestamp": 1616754257676,
 		"signature": "MEUCIDjiwgP6cBQv9dtg9+2hfAPX3CqjwVPdwVdgviVEfFbOAiEA6Aqqc2wzP4c5MbV2P90sVdMJTgEcOZ91YASbnCTHe1U=",
-		"click_trackers": ["link1","link2"]
+		"click_trackers": ["link1","link2"],
+		"impression_trackers": ["link1","link2"]
 	},
 	"status": "ok"
 }
