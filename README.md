@@ -37,6 +37,7 @@
 | app_bundle    | int    | 是     | 媒体Itunes ID，示例：1125517808                              |
 | version       | string | 否     | SKAdNetwork版本号<br />1.0<br />2.0<br />2.2 （缺省时默认）  |
 | fidelity_type | int    | 否     | SKAdNetwork 2.2版本用于区分广告展示类型<br />1: StoreKit Render Ads<br />2: View-Through Ads |
+| idfv | string    | 否     | IDFV |
 
 6. 示例
 
@@ -65,6 +66,7 @@
 | source-app-id | int | 媒体Itunes ID，请求时上传的app_bundle。<br />version=1.0时，不返回 |
 | fidelity-type                                  | int                                                | SKAdNetwork约定的广告展示形式，请求时上传<br />version=2.2时，返回 |
 | click_trackers | array[string] | 点击上报链接，通常客户使用第三方检测时会返回 |
+| impression_trackers | array[string] | 展示上报链接，通常客户使用第三方检测时会返回 |
 
 3. 示例
 
@@ -81,6 +83,7 @@
 		"timestamp": 1616754257676,
 		"signature": "MEUCIDjiwgP6cBQv9dtg9+2hfAPX3CqjwVPdwVdgviVEfFbOAiEA6Aqqc2wzP4c5MbV2P90sVdMJTgEcOZ91YASbnCTHe1U=",
 		"click_trackers": ["link1","link2"],
+		"impression_trackers": ["link1","link2"]
 	},
 	"status": "ok"
 }
