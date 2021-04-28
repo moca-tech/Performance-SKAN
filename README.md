@@ -64,6 +64,7 @@
 | timestamp | int | 毫秒时间戳 |
 | source-app-id | int | 媒体Itunes ID，请求时上传的app_bundle。<br />version=1.0时，不返回 |
 | fidelity-type                                  | int                                                | SKAdNetwork约定的广告展示形式，请求时上传<br />version=2.2时，返回 |
+| click_trackers | array[string] | 点击上报链接，通常客户使用第三方检测时会返回 |
 
 3. 示例
 
@@ -78,7 +79,8 @@
 		"source-app-id": 0,
 		"fidelity-type": 1,
 		"timestamp": 1616754257676,
-		"signature": "MEUCIDjiwgP6cBQv9dtg9+2hfAPX3CqjwVPdwVdgviVEfFbOAiEA6Aqqc2wzP4c5MbV2P90sVdMJTgEcOZ91YASbnCTHe1U="
+		"signature": "MEUCIDjiwgP6cBQv9dtg9+2hfAPX3CqjwVPdwVdgviVEfFbOAiEA6Aqqc2wzP4c5MbV2P90sVdMJTgEcOZ91YASbnCTHe1U=",
+		"click_trackers": ["link1","link2"],
 	},
 	"status": "ok"
 }
