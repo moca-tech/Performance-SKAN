@@ -26,6 +26,14 @@
 
 ## Get SKAdNetwork Ad Impression Parameters
 
+### 1. Prepare
+Add below network id to your Info.plist
+```
+hb56zgv37p.skadnetwork
+rvh3l7un93.skadnetwork
+```
+
+### 2. Request
 1. Request URL：https://tracking.moca-tech.net/ad-impression
 2. Request Method：GET
 3. Request Frequency：per impression
@@ -49,7 +57,7 @@
 
    > https://tracking.moca-tech.net/ad-impression?offer_id=106495&aff_id=21124&app_bundle=0&version=2.0
 
-## RESPONSE
+### 3. Response
 
 1. SKAdNetwork AD Impression: JSON
 
