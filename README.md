@@ -38,6 +38,12 @@
 | version       | string | 否     | SKAdNetwork版本号<br />1.0<br />2.0<br />2.2 （缺省时默认）  |
 | fidelity_type | int    | 否     | SKAdNetwork 2.2版本用于区分广告展示类型<br />1: StoreKit Render Ads<br />2: View-Through Ads |
 | idfv | string    | 否     | IDFV |
+| idfa | string    | 否     | IDFA |
+| ua | string    | 否     | UA，通常server to server请求需要上传，缺省为HTTP Header User-Agent |
+| ip | string    | 否     | IP，通常server to server请求需要上传，缺省从HTTP Header X-Forwarded-For或Remote Address|
+| aff_pub | string    | 否     | Affiliate Sub-publisher |
+| app_name | string    | 否     | App Name |
+
 
 6. 示例
 
