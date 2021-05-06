@@ -52,7 +52,7 @@ rvh3l7un93.skadnetwork
 | app_name | string    | 否     | App Name |
 
 
-6. 示例
+5. 示例
 
    > https://tracking.moca-tech.net/ad-impression?offer_id=106495&aff_id=21124&app_bundle=0&version=2.0
 
