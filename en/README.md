@@ -39,6 +39,11 @@
 | version       | string | N         | SKAdNetwork Version<br />1.0<br />2.0<br />2.2 （Default）   |
 | fidelity_type | int    | N         | SKAdNetwork 2.2 Fidelity Type<br />1: StoreKit Render Ads<br />2: View-Through Ads |
 | idfv       | string | N         | IDFV   |
+| idfa | string    | N     | IDFA |
+| ua | string    | N     | User Agent, If empty would get from HTTP Header |
+| ip | string    | N     | IP，If empty would parse from remote address|
+| aff_pub | string    | N     | Affiliate Sub-publisher |
+| app_name | string    | N     | App Name |
 
 5. Request sample
 
