@@ -25,6 +25,13 @@
 
 ## 获取SKAdNetwork广告展示需要的参数及签名
 
+### 1. 准备
+将以下Network ID加入Info.plist
+```
+hb56zgv37p.skadnetwork
+rvh3l7un93.skadnetwork
+```
+### 2. 请求
 1. 请求接口：https://tracking.moca-tech.net/ad-impression
 2. 请求方式：GET
 3. 请求频率：每次广告展示
@@ -49,7 +56,7 @@
 
    > https://tracking.moca-tech.net/ad-impression?offer_id=106495&aff_id=21124&app_bundle=0&version=2.0
 
-## 响应
+### 3. 响应
 
 1. SKAdNetwork AD Impression: JSON
 
